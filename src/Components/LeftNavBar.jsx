@@ -4,13 +4,13 @@ import React from "react";
 
 const LeftNavBar = () => {
   return (
-    <div className="flex flex-col border border-white-500 w-10 items-center justify-between">
+    <div className="h-full w-16 flex flex-col items-center">
       <div className="h-20">
         <Image src="/icons/logo.png" width={30} height={30} alt="logo.png" />
       </div>
-      <div className="h-80">
-        <ul>
-          <li>
+      <div className="h-96">
+        <ul className="flex flex-col space-y-2">
+          <li className="bg-[#2C3A58] p-3 cursor-pointer rounded-xl">
             <Image
               src="/icons/homeIcon.png"
               width={20}
@@ -18,7 +18,7 @@ const LeftNavBar = () => {
               alt="homeicon"
             />
           </li>
-          <li>
+          <li className="p-3 cursor-pointer rounded-xl">
             <Image
               src="/icons/saveIcon.png"
               width={20}
@@ -26,7 +26,7 @@ const LeftNavBar = () => {
               alt="saveicon"
             />
           </li>
-          <li>
+          <li className="p-3 cursor-pointer rounded-xl">
             <Image
               src="/icons/liveIcon.png"
               width={20}
@@ -34,7 +34,7 @@ const LeftNavBar = () => {
               alt="liveicon"
             />
           </li>
-          <li>
+          <li className="p-3 cursor-pointer rounded-xl">
             <Image
               src="/icons/chatIcon.png"
               width={20}
@@ -42,7 +42,7 @@ const LeftNavBar = () => {
               alt="chaticon"
             />
           </li>
-          <li>
+          <li className="p-3 cursor-pointer rounded-xl">
             <Image
               src="/icons/settingsIcon.png"
               width={20}
@@ -52,7 +52,7 @@ const LeftNavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="h-32">
+      <div className="h-20 flex flex-col items-center justify-between">
         <Image
           src="/images/userAvatar.png"
           width={30}
@@ -60,6 +60,7 @@ const LeftNavBar = () => {
           alt="userAvatar"
         />
         <Image
+          className="cursor-pointer"
           src="/icons/logoutIcon.png"
           width={20}
           height={20}
