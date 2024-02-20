@@ -7,7 +7,7 @@ const ActivePatientsCard = () => {
       <h2>Active Patients</h2>
       <div className="w-96 h-56 bg-[#1B2C4F] rounded-3xl p-2 flex flex-col space-y-2">
         <div className="flex justify-between items-center">
-          <span>08:00 AM</span>
+          <span className="text-xs text-[#cecccc] ">08:00 AM</span>
           <span className="flex items-center justify-center w-64">
             <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
               <Image
@@ -34,7 +34,7 @@ const ActivePatientsCard = () => {
           </span>
         </div>
         <div className="flex justify-between items-center">
-          <span>09:00 AM</span>
+          <span className="text-xs text-[#cecccc] ">09:00 AM</span>
           <span className="flex items-center justify-center w-64">
             <span className=" text-[#686868] text-sm">----------</span>
             <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
@@ -61,7 +61,7 @@ const ActivePatientsCard = () => {
           </span>
         </div>
         <div className="flex justify-between items-center">
-          <span>10:00 AM</span>
+          <span className="text-xs text-[#cecccc] ">10:00 AM</span>
           <span className="flex items-center justify-center w-64">
             <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
               <Image
@@ -88,7 +88,7 @@ const ActivePatientsCard = () => {
           </span>
         </div>
         <div className="flex justify-between items-center">
-          <span>11:00 AM</span>
+          <span className="text-xs text-[#cecccc]">11:00 AM</span>
           <span className="flex items-center justify-center w-64">
             <span className=" text-[#686868] text-sm">------------</span>
             <span className="text-sm bg-black/50 px-3 rounded-2xl">
@@ -99,7 +99,7 @@ const ActivePatientsCard = () => {
         </div>
 
         <div className="flex justify-between items-center">
-          <span>12:00 PM</span>
+          <span className="text-xs text-[#cecccc]">12:00 PM</span>
           <span className="flex items-center justify-center w-64">
             <span className=" text-[#686868] text-sm">----------</span>
             <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
