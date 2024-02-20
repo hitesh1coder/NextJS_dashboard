@@ -6,12 +6,13 @@ import StasticsCard from "../StasticsCard";
 import ActivePatientsCard from "../ActivePatientsCard";
 import TeamMeatingCard from "../TeamMeatingCard";
 import ConsultationCard from "../ConsultationCard";
+import UserInfo from "../UserInfo";
 
 const Dashboard = () => {
   return (
-    <div className="flex bg-[#151C39] w-full h-full rounded-2xl p-2">
+    <div className="flex bg-[#151C39] w-full h-full rounded-2xl p-2 space-x-10">
       {/* right contents */}
-      <div className="w-[50vw]">
+      <div className="w-[50vw] mx-7">
         <SearchHeader />
         <div className="my-1 flex gap-12">
           <div className="flex flex-col gap-3">
@@ -36,6 +37,11 @@ const Dashboard = () => {
         </div>
       </div>
       {/* right content  */}
+
+      {/* left content  */}
+      <div className="w-[30vw] bg-[#111729] rounded-3xl">
+        <UserInfo />
+      </div>
     </div>
   );
 };

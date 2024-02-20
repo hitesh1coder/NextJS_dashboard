@@ -37,7 +37,7 @@ const StasticsCard = () => {
             alt="tooltip"
           />
           <p className="text-xs font-thin absolute top-1 left-2 flex items-center justify-center space-x-2">
-            80%
+            82%
             <Image
               src="/icons/grothIcon.png"
               width={10}
@@ -47,7 +47,7 @@ const StasticsCard = () => {
           </p>
         </span>
         <span className="rounded-full border-2 absolute top-[6rem] left-[9rem] flex w-3 h-3 bg-white border-black"></span>
-        <span className=" absolute top-[6.7rem] left-[9.2rem] w-1 bg-black h-16 z-10 rounded-b-full"></span>
+        <span className=" absolute top-[6.7rem] left-[9.3rem] w-1 bg-black h-16 z-10 rounded-b-full"></span>
 
         <Image
           className="absolute top-5"
