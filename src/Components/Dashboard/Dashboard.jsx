@@ -2,7 +2,7 @@ import React from "react";
 import SearchHeader from "../SearchHeader";
 import PatientsVisitedCard from "../PatientsVisitedCard";
 
-const MainContainer = () => {
+const Dashboard = () => {
   return (
     <div className="flex bg-[#151C39] w-full h-full rounded-2xl p-6">
       {/* right contents */}
@@ -19,4 +19,4 @@ const MainContainer = () => {
   );
 };
 
-export default MainContainer;
+export default Dashboard;
