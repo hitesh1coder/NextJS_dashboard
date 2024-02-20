@@ -1,5 +1,6 @@
 import React from "react";
 import SearchHeader from "../SearchHeader";
+import PatientsVisitedCard from "../PatientsVisitedCard";
 
 const MainContainer = () => {
   return (
@@ -7,6 +8,11 @@ const MainContainer = () => {
       {/* right contents */}
       <div className="w-[50vw]">
         <SearchHeader />
+        <div className="my-3">
+          <div>
+            <PatientsVisitedCard />
+          </div>
+        </div>
       </div>
       {/* right content  */}
     </div>
