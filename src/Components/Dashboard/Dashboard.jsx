@@ -1,6 +1,7 @@
 import React from "react";
 import SearchHeader from "../SearchHeader";
 import PatientsVisitedCard from "../PatientsVisitedCard";
+import UpcomingEventCard from "../UpcomingEventCard";
 
 const Dashboard = () => {
   return (
@@ -11,6 +12,7 @@ const Dashboard = () => {
         <div className="my-3">
           <div>
             <PatientsVisitedCard />
+            <UpcomingEventCard />
           </div>
         </div>
       </div>

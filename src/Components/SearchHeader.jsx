@@ -22,10 +22,10 @@ const SearchHeader = () => {
           className=" text-sm py-3 pl-10 bg-[#2C3A58] w-96 border-none outline-none rounded-2xl"
         />
       </div>
-      <div>
+      <div className="p-3 rounded-2xl bg-[#409BEE] relative">
+        <span className="rounded-full w-2 h-2 bg-red-600 absolute right-3"></span>
         <Image
-          className="cursor-pointer bg-[#409BEE] rounded-2xl p-5"
-          src="/icons/homeIcon.png"
+          src="/icons/notificationIcon.png"
           width={20}
           height={20}
           alt="notification"
