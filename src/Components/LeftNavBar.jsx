@@ -4,12 +4,12 @@ import React from "react";
 
 const LeftNavBar = () => {
   return (
-    <div className="h-full w-16 flex flex-col items-center">
-      <div className="h-20">
+    <div className="h-20 md:h-full w-full md:w-16 flex md:flex-col items-center justify-between">
+      <div className="md:h-20">
         <Image src="/icons/logo.png" width={30} height={30} alt="logo.png" />
       </div>
-      <div className="h-96">
-        <ul className="flex flex-col space-y-2">
+      <div className="md:h-96">
+        <ul className="flex md:flex-col md:space-y-2">
           <li className="bg-[#2C3A58] p-3 cursor-pointer rounded-xl">
             <Image
               src="/icons/homeIcon.png"
@@ -18,7 +18,7 @@ const LeftNavBar = () => {
               alt="homeicon"
             />
           </li>
-          <li className="p-3 cursor-pointer rounded-xl">
+          <li className="p-3 cursor-pointer hover:bg-[#2C3A58] rounded-xl">
             <Image
               src="/icons/saveIcon.png"
               width={20}
@@ -26,7 +26,7 @@ const LeftNavBar = () => {
               alt="saveicon"
             />
           </li>
-          <li className="p-3 cursor-pointer rounded-xl">
+          <li className="p-3 cursor-pointer hover:bg-[#2C3A58] rounded-xl">
             <Image
               src="/icons/liveIcon.png"
               width={20}
@@ -34,7 +34,7 @@ const LeftNavBar = () => {
               alt="liveicon"
             />
           </li>
-          <li className="p-3 cursor-pointer rounded-xl">
+          <li className="p-3 cursor-pointer hover:bg-[#2C3A58] rounded-xl">
             <Image
               src="/icons/chatIcon.png"
               width={20}
@@ -42,7 +42,7 @@ const LeftNavBar = () => {
               alt="chaticon"
             />
           </li>
-          <li className="p-3 cursor-pointer rounded-xl">
+          <li className="p-3 cursor-pointer hover:bg-[#2C3A58] rounded-xl">
             <Image
               src="/icons/settingsIcon.png"
               width={20}
@@ -59,13 +59,14 @@ const LeftNavBar = () => {
           height={30}
           alt="userAvatar"
         />
-        <Image
-          className="cursor-pointer"
-          src="/icons/logoutIcon.png"
-          width={20}
-          height={20}
-          alt="logouticon"
-        />
+        <span className="cursor-pointer hover:bg-[#2C3A58] p-3 rounded-xl">
+          <Image
+            src="/icons/logoutIcon.png"
+            width={20}
+            height={20}
+            alt="logouticon"
+          />
+        </span>
       </div>
     </div>
   );

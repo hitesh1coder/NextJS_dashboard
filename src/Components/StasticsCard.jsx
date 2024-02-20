@@ -3,7 +3,7 @@ import React from "react";
 
 const StasticsCard = () => {
   return (
-    <div className="w-96 h-60 bg-[#1B2C4F] rounded-3xl p-5 backdrop-blur-2xl">
+    <div className="md:w-96 h-60 bg-[#1B2C4F] rounded-3xl p-5 backdrop-blur-2xl">
       <div className="flex justify-between">
         <span>
           <p>Statistics</p>

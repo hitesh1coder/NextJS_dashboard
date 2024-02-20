@@ -5,7 +5,7 @@ import { Line, Circle } from "rc-progress";
 
 const ConsultationCard = () => {
   return (
-    <div className="w-60 h-28 bg-[#1B2C4F] rounded-2xl flex flex-col my-2 p-3 ">
+    <div className="w-60 h-24 bg-[#1B2C4F] rounded-2xl flex flex-col my-2 p-3 ">
       <div className="w-full flex justify-between items-start">
         <span>
           <p className="text-xs font-thin">Consultation</p>

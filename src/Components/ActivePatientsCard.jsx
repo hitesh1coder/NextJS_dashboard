@@ -5,11 +5,11 @@ const ActivePatientsCard = () => {
   return (
     <>
       <h2>Active Patients</h2>
-      <div className="w-96 h-56 bg-[#1B2C4F] rounded-3xl p-2 flex flex-col space-y-2">
+      <div className="md:w-96 h-56 bg-[#1B2C4F] rounded-3xl p-2 flex flex-col space-y-2">
         <div className="flex justify-between items-center">
           <span className="text-xs text-[#cecccc] ">08:00 AM</span>
           <span className="flex items-center justify-center w-64">
-            <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
+            <div className="w-[70%] h-9 bg-[#F5E5E5] rounded-2xl flex gap-2 px-2 items-center text-black">
               <Image
                 className="border-2 rounded-full bg-white flex w-8 h-8"
                 src="/images/userAvatar.png"
@@ -18,7 +18,7 @@ const ActivePatientsCard = () => {
                 alt="vector"
               />
               <div>
-                <p className="text-sm font-bold">Macro Jhonson</p>
+                <p className="text-sm font-bold">Mark Jakxon</p>
                 <span className="text-xs font-normal flex space-x-1">
                   <Image
                     src="/icons/clockIcon.png"
@@ -37,7 +37,7 @@ const ActivePatientsCard = () => {
           <span className="text-xs text-[#cecccc] ">09:00 AM</span>
           <span className="flex items-center justify-center w-64">
             <span className=" text-[#686868] text-sm">----------</span>
-            <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
+            <div className="w-[70%] h-9 bg-[#E5F5E6] rounded-2xl flex gap-2 px-2 items-center text-black">
               <Image
                 className="border-2 rounded-full bg-white flex w-8 h-8"
                 src="/images/userAvatar2.png"
@@ -63,7 +63,7 @@ const ActivePatientsCard = () => {
         <div className="flex justify-between items-center">
           <span className="text-xs text-[#cecccc] ">10:00 AM</span>
           <span className="flex items-center justify-center w-64">
-            <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
+            <div className="w-[70%] h-9 bg-[#C9F3EC] rounded-2xl flex gap-2 px-2 items-center text-black">
               <Image
                 className="border-2 rounded-full bg-white flex w-8 h-8"
                 src="/images/userAvatar3.png"
@@ -102,7 +102,7 @@ const ActivePatientsCard = () => {
           <span className="text-xs text-[#cecccc]">12:00 PM</span>
           <span className="flex items-center justify-center w-64">
             <span className=" text-[#686868] text-sm">----------</span>
-            <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
+            <div className="w-[70%] h-9 bg-[#C1E2F4] rounded-2xl flex gap-2 px-2 items-center text-black">
               <Image
                 className="border-2 rounded-full bg-white flex w-8 h-8"
                 src="/images/userAvatar4.png"

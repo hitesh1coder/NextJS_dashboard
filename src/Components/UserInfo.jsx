@@ -4,10 +4,9 @@ import ChattingCard from "./ChattingCard";
 
 const UserInfo = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center relative mt-3 space-y-2">
-      <Image src="/icons/Ellipse 4.png" height={100} width={100} alt="ring" />
+    <div className="w-full flex flex-col justify-center items-center mt-3 space-y-2">
       <Image
-        className="rounded-full w-20 h-20 absolute left-25 top-0 bg-slate-300"
+        className="rounded-full w-20 h-20 bg-slate-300 border-4 border-blue-700"
         src="/images/userImage.png"
         width={70}
         height={70}

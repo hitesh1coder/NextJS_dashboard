@@ -3,7 +3,7 @@ import React from "react";
 
 const SearchHeader = () => {
   return (
-    <div className="flex items-center justify-between h-14 w-full">
+    <div className="flex items-center justify-between md:h-14 w-full">
       <div>
         <p>Hello,</p>
         <h2 className="font-bold">Dr. Colter! 👋</h2>
@@ -19,7 +19,7 @@ const SearchHeader = () => {
         <input
           type="text"
           placeholder="search"
-          className=" text-sm py-3 pl-10 bg-[#2C3A58] w-96 border-none outline-none rounded-2xl"
+          className=" text-sm py-3 pl-10 bg-[#2C3A58] md:w-96 border-none outline-none rounded-2xl"
         />
       </div>
       <div className="p-3 rounded-2xl bg-[#409BEE] relative">
