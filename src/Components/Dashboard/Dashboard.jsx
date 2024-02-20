@@ -2,6 +2,7 @@ import React from "react";
 import SearchHeader from "../SearchHeader";
 import PatientsVisitedCard from "../PatientsVisitedCard";
 import UpcomingEventCard from "../UpcomingEventCard";
+import StasticsCard from "../StasticsCard";
 
 const Dashboard = () => {
   return (
@@ -9,10 +10,13 @@ const Dashboard = () => {
       {/* right contents */}
       <div className="w-[50vw]">
         <SearchHeader />
-        <div className="my-3">
-          <div>
+        <div className="my-3 flex gap-12">
+          <div className="flex flex-col gap-3">
             <PatientsVisitedCard />
             <UpcomingEventCard />
+          </div>
+          <div>
+            <StasticsCard />
           </div>
         </div>
       </div>

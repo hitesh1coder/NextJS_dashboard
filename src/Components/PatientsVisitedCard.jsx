@@ -3,7 +3,7 @@ import React from "react";
 
 const PatientsVisitedCard = () => {
   return (
-    <div className="w-48 h-28 bg-[#1B2C4F] rounded-2xl flex my-1">
+    <div className="w-60 h-28 bg-[#1B2C4F] rounded-2xl flex my-1">
       <div className="w-4/6 h-full flex flex-col items-start justify-center p-2">
         <p>42</p>
         <p className="text-sm">Patients Visited</p>

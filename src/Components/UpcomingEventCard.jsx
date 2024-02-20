@@ -3,7 +3,7 @@ import React from "react";
 
 const UpcomingEventCard = () => {
   return (
-    <div className="w-48 h-28 bg-[#1B2C4F] rounded-2xl flex flex-col space-y-4 mt-2 p-2">
+    <div className="w-60 h-28 bg-[#1B2C4F] rounded-2xl flex flex-col space-y-4 p-2">
       <div className="flex h-5 w-full items-center gap-2">
         <div className="p-2 rounded-full bg-[#409BEE]">
           <Image
