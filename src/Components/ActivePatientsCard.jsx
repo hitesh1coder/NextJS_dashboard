@@ -40,7 +40,7 @@ const ActivePatientsCard = () => {
             <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
               <Image
                 className="border-2 rounded-full bg-white flex w-8 h-8"
-                src="/images/userAvatar.png"
+                src="/images/userAvatar2.png"
                 width={20}
                 height={20}
                 alt="vector"
@@ -66,7 +66,7 @@ const ActivePatientsCard = () => {
             <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
               <Image
                 className="border-2 rounded-full bg-white flex w-8 h-8"
-                src="/images/userAvatar.png"
+                src="/images/userAvatar3.png"
                 width={20}
                 height={20}
                 alt="vector"
@@ -105,7 +105,7 @@ const ActivePatientsCard = () => {
             <div className="w-[70%] h-9 bg-white rounded-2xl flex gap-2 px-2 items-center text-black">
               <Image
                 className="border-2 rounded-full bg-white flex w-8 h-8"
-                src="/images/userAvatar.png"
+                src="/images/userAvatar4.png"
                 width={20}
                 height={20}
                 alt="vector"

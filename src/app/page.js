@@ -3,7 +3,7 @@ import Dashboard from "@/Components/Dashboard/Dashboard";
 
 export default function Home() {
   return (
-    <main className="flex w-full h-screen items-center justify-between space-x-7 p-3">
+    <main className="flex w-full h-screen items-center justify-between space-x-7 px-3 py-2">
       <LeftNavBar />
       <Dashboard />
     </main>

@@ -4,6 +4,8 @@ import PatientsVisitedCard from "../PatientsVisitedCard";
 import UpcomingEventCard from "../UpcomingEventCard";
 import StasticsCard from "../StasticsCard";
 import ActivePatientsCard from "../ActivePatientsCard";
+import TeamMeatingCard from "../TeamMeatingCard";
+import ConsultationCard from "../ConsultationCard";
 
 const Dashboard = () => {
   return (
@@ -28,8 +30,8 @@ const Dashboard = () => {
           </div>
           <div className="flex flex-col">
             <h2>Upcoming Events</h2>
-            <PatientsVisitedCard />
-            <UpcomingEventCard />
+            <TeamMeatingCard />
+            <ConsultationCard />
           </div>
         </div>
       </div>
