@@ -23,7 +23,7 @@ const StasticsCard = () => {
       <div className="flex flex-col items-center justify-center ">
         <Image
           className="w-full h-full relative"
-          src="/icons/vector.png"
+          src="/icons/Vector.png"
           width={300}
           height={100}
           alt="vector"
